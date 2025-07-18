@@ -41,7 +41,7 @@
 #sidebar {
   position: fixed;
   top: 0;
-  left: -100%;
+  left: -250px;
   width: 220px;
   height: 100vh;
   background: #c7d0d7;
@@ -54,6 +54,7 @@
 
 #sidebar.active {
   left: 0;
+  visibility: visible;
 }
 
 #sidebar ul {
